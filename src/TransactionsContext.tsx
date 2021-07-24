@@ -41,15 +41,26 @@ export function TransactionsProvider({children}: TransactionsProviderProps){
   }, []);
 
   async function createTransaction(transactionInput: TransactionsInput){
-    const response = await api.post('/transactions', {
-      ...transactionInput,
-      createdAt: new Date(),
-    });
+    // const response = await api.post('/transactions', {
+    //   ...transactionInput,
+    //   createdAt: new Date(),
+    // });
 
-    const {newTransactionData} = response.data;
+    const response = await api.post('/transactions', transactionInput);
+
+    //Renomeando a propriedade desestruturada
+    //const {transaction: newTransactionData} = response.data
+
+    //Sem desestruturar, dando apenas um nome pra variável
+    //const newTransactionData = response.data
+
+    //Só que agora para acessar a transaction seria assim:
+    //newTransactionData.transaction
+
+    const {transaction} = response.data;
     setTransactions([
       ...transactions,
-      newTransactionData,
+      transaction,
     ]);
   }
 

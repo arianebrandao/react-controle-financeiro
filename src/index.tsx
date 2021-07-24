@@ -58,12 +58,12 @@ createServer({
     //rota insert
     this.post('/transactions', (schema, request)=>{
       const data = JSON.parse(request.requestBody); //converte texto em objeto
-      // const newData = {
-      //   ...data,
-      //   createdAt: new Date('2021-07-14 14:00:00'),
-      // }
+      const newData = {
+        ...data,
+        createdAt: new Date(),
+      }
 
-      return schema.create('transaction', data); //schema = db, transaction = table
+      return schema.create('transaction', newData); //schema = db, transaction = table
     })
 
   }

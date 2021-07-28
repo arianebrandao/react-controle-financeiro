@@ -13,13 +13,6 @@ createServer({
     server.db.loadData({
       transactions: [
         {
-          title: "Comida",
-          amount: 200,
-          type: "withdraw",
-          category: "Mercado",
-          createdAt: new Date(),
-        },
-        {
           title: "Freelance de website",
           amount: 6000,
           type: "deposit",

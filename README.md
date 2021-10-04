@@ -1,5 +1,9 @@
+<p align="center">
+  <img alt="ab.money app" src=".github/app.png" width="100%">
+</p>
+
 ## ab.money
-App que auxilia no controle financeiro, para cadastrar lucros/despesas.
+App que auxilia no controle financeiro, para cadastrar lucros/despesas. É mais um projeto desenvolvido durante minha jornada no [Ignite](https://www.rocketseat.com.br/ignite), da Rocketseat.
 
 ## App online
 Link para essa aplicação: [reactjs-ab-money.vercel.app](https://reactjs-ab-money.vercel.app)
@@ -21,7 +25,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 - Clone o repositório
 - Instale as dependências com `yarn`
-- Inicie o servidor com `yarn dev`
+- Inicie o servidor com `yarn start`
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 

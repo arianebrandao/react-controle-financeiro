@@ -6,7 +6,7 @@
 App que auxilia no controle financeiro, para cadastrar lucros/despesas. É mais um projeto desenvolvido durante minha jornada no [Ignite](https://www.rocketseat.com.br/ignite), da Rocketseat.
 
 ## App online
-Link para essa aplicação: [reactjs-ab-money.vercel.app](https://reactjs-ab-money.pages.dev), hospedado na [Cloudflare Pages](https://pages.cloudflare.com/)
+Link para essa aplicação: [reactjs-ab-money.pages.dev](https://reactjs-ab-money.pages.dev), hospedado na [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ## Tecnologias
 

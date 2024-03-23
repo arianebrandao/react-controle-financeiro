@@ -22,6 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/0xmu9mj2TJYoIOubBFWsk5/dtmoney-Ignite-(Copy)). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
 
 ## Como executar
+Testado com node na versão 16.20.2
 
 - Clone o repositório
 - Instale as dependências com `yarn`

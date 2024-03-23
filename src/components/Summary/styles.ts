@@ -6,11 +6,20 @@ export const Container = styled.div`
   gap: 2rem;
   margin-top: -10rem;
 
+  @media(max-width: 720px){
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
   div{
     background: var(--shape);
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
     color: var(--text-title);
+
+    @media(max-width: 992px){
+      padding: 1.5rem 1rem;
+    }
 
     header{
       display: flex;
